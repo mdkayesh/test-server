@@ -2,21 +2,87 @@
   "users": [
     {
       "id": 1,
-      "name": "Akash Khan",
-      "email": "akash@gmail.com",
-      "location": "Dhaka, Bangladesh"
+      "first_name": "Jeanette",
+      "last_name": "Penddreth",
+      "email": "jpenddreth0@census.gov",
+      "gender": "Female",
+      "ip_address": "26.58.193.2",
+      "role": "admin",
+      "auth": {
+        "email": "jpenddreth@census.gov",
+        "password": "test1234"
+      },
+      "friends": [
+        {
+          "id": 2,
+          "name": "Giavani"
+        },
+        {
+          "id": 3,
+          "name": "Noell"
+        }
+      ]
     },
     {
       "id": 2,
-      "name": "Rima Khan",
-      "email": "rima@gmail.com",
-      "location": "Dhaka, Bangladesh"
+      "first_name": "Giavani",
+      "last_name": "Frediani",
+      "email": "gfrediani1@senate.gov",
+      "gender": "Male",
+      "ip_address": "229.179.4.212",
+      "role": "super_user",
+      "auth": {
+        "email": "gfrediani1@senate.gov",
+        "password": "test12345"
+      },
+      "friends": [
+        {
+          "id": 1,
+          "name": "Jeanette"
+        },
+        {
+          "id": 4,
+          "name": "Willard"
+        }
+      ]
     },
     {
-      "id": 1,
-      "name": "Anjan Khan",
-      "email": "anjan@gmail.com",
-      "location": "Dhaka, Bangladesh"
+      "id": 3,
+      "first_name": "Noell",
+      "last_name": "Bea",
+      "email": "nbea2@imageshack.us",
+      "gender": "Female",
+      "ip_address": "180.66.162.255",
+      "role": "user",
+      "auth": {
+        "email": "nbea2@imageshack.us",
+        "password": "test123455"
+      },
+      "friends": [
+        {
+          "id": 1,
+          "name": "Jeanette"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "first_name": "Willard",
+      "last_name": "Valek",
+      "email": "wvalek3@vk.com",
+      "gender": "Male",
+      "ip_address": "67.76.188.26",
+      "role": "user",
+      "auth": {
+        "email": "wvalek3@vk.com",
+        "password": "test123456"
+      },
+      "friends": [
+        {
+          "id": 2,
+          "name": "Giavani"
+        }
+      ]
     }
   ]
 }
